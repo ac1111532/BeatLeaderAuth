@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>BeatLeader</h1>
+    <p>
+        Beatleader is a platform where you can easily share your Beat Saber scores on the internet for the world to see. 
+    </p>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Songs</h2>
+        <p>Find song names, artist, song length and the BPM of any song recorded</p>
+        <p><a class="btn btn-default" asp-area="" asp-controller="Songs" asp-action="Index">View Songs &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Scores</h2>
+        <p>See detailed scores from other players.</p>
+        <p><a class="btn btn-default" asp-area="" asp-controller="Scores" asp-action="Index">View Scores &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Players</h2>
+        <p>View the list of players that use beatleader, as well as their hardware and playtime.</p>
+        <p><a class="btn btn-default" asp-area="" asp-controller="Players" asp-action="Index">View Players &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Beatmaps</h2>
+        <p>See a list of beatmaps, and what type of obstacles and events they have.</p>
+        <p><a class="btn btn-default" asp-area="" asp-controller="Beatmaps" asp-action="Index">View Beatmaps &raquo;</a></p>
+    </div>
+</div>
