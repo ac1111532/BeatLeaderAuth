@@ -6,10 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="dark-mode.css" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\images\favicon.ico" />
   </ItemGroup>
 
